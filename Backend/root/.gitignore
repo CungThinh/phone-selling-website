@@ -1,0 +1,62 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.so
+*.sqlite3
+*.db
+
+# Environments
+env/
+venv/
+ENV/
+ENV.bak/
+venv.bak/
+
+# PyCharm settings
+.idea/
+
+# VSCode settings
+.vscode/
+
+# MySQL / Postgres / SQLite database files
+*.db
+*.sqlite3
+
+# Migrations
+*/migrations/*
+
+# Local environment variables
+.env
+.venv
+
+# Static and media files
+/static/
+media/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# Django stuff:
+*.log
+local_settings.py

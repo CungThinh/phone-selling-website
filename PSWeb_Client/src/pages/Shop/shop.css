@@ -1,0 +1,76 @@
+/* Đặt tiêu đề của shop */
+.shopTitle {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 48px;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+/* Thiết lập bố cục cho danh sách sản phẩm */
+.products {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Định dạng cho từng sản phẩm */
+.product {
+  border-radius: 15px;
+  width: 300px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.product:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+/* Định dạng cho hình ảnh sản phẩm */
+.product img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Định dạng cho phần mô tả sản phẩm */
+.product .description {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.product .description p {
+  margin: 5px 0;
+  font-family: 'Arial', sans-serif;
+  color: #555;
+}
+
+/* Định dạng cho nút thêm vào giỏ hàng */
+.addToCartBttn {
+  background-color: #f8f8f8;
+  border: 2px solid #333;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  margin-top: 15px;
+}
+
+.addToCartBttn:hover {
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}

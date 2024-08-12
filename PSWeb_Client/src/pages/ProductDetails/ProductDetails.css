@@ -1,0 +1,24 @@
+.product-detail-container {
+  border: 2px solid white;
+  padding: 20px;
+  border-radius: 10px; /* Tạo viền bo tròn */
+  margin-bottom: 20px;
+  background-color: #fff; /* Màu nền trắng */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hiệu ứng bóng đổ */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hiệu ứng chuyển đổi */
+}
+
+.product-detail-container:hover {
+  transform: translateY(-5px); /* Hiệu ứng di chuyển lên khi di chuột vào */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Tăng hiệu ứng bóng đổ khi di chuột vào */
+}
+
+.icon-hover:hover {
+  border-color: #3b71ca !important;
+  background-color: white !important;
+  color: #3b71ca !important;
+}
+
+.icon-hover:hover i {
+  color: #3b71ca !important;
+}

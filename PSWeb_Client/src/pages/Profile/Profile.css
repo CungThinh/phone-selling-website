@@ -1,0 +1,28 @@
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #fbc2eb;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(251, 194, 235, 1), rgba(166, 193, 238, 1));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(251, 194, 235, 1), rgba(166, 193, 238, 1))
+}
+
+.text-center-btn {
+    display: flex;
+    justify-content: center; /* căn giữa theo chiều ngang */
+    align-items: center; /* căn giữa theo chiều dọc */
+    height: 100%; /* đảm bảo chiều cao của nút là 100% để align-items hoạt động */
+    width: 150px;
+}
+  
+.custom-update-button {
+    background-color: #B9D3EE; /* màu nền xanh lá cây */
+    border-color: #2F4F4F; /* màu viền xanh lá cây */
+    color: white; /* màu chữ trắng */
+    font-weight: bold;
+  }
+
+  
+  
